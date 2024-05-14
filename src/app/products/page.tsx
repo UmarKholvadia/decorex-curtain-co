@@ -1,11 +1,10 @@
 import CurtainCoHeader from "@/components/header";
-import Categories from "@/components/categories";
 
-export default function Home() {
+export default function Products() {
     return (
         <main className={'min-h-full'}>
             <CurtainCoHeader/>
-            <Categories/>
+            <h2>{'Products'}</h2>
         </main>
     );
 }
