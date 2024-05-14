@@ -19,7 +19,7 @@ const CurtainCard = ({label, route, image}: CurtainCardProp) => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-[250px] w-full flex-none rounded-full bg-gray-50"
+                        className="h-[250px] w-full flex-none"
                     />
                 </div>
                 <div className="relative p-5 bg-slate-800">
