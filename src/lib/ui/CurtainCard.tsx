@@ -16,8 +16,10 @@ const CurtainCard = ({label, route, image}: CurtainCardProp) => {
                     <Image
                         alt='Mountains'
                         src={image}
-                        layout='fill'
-                        objectFit='fill'
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        className="h-[250px] w-full flex-none rounded-full bg-gray-50"
                     />
                 </div>
                 <div className="relative p-5 bg-slate-800">
