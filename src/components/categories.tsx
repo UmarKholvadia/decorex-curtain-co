@@ -1,4 +1,4 @@
-import CurtainCard from "@/app/lib/ui/CurtainCard";
+import CurtainCard from "@/lib/ui/CurtainCard";
 
 type CategoryProp = {
     label: string;
