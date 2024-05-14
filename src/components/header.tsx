@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const CurtainCoHeader = () => {
 
@@ -8,8 +9,12 @@ const CurtainCoHeader = () => {
                 <div className="flex">
                     <Link href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Curtain Co</span>
-                        <img className="h-14 w-auto"
-                             src="https://www.thecurtainco.co.za/wp-content/uploads/2023/08/Curtain_co_logo1.png" alt=""/>
+                        <Image
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            className="h-14 w-auto"
+                            src="https://www.thecurtainco.co.za/wp-content/uploads/2023/08/Curtain_co_logo1.png" alt=""/>
                     </Link>
                 </div>
             </nav>

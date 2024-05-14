@@ -14,7 +14,7 @@ const CurtainCard = ({label, route, image}: CurtainCardProp) => {
                 className="z-10 overflow-hidden max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <div className="relative w-full h-[250px]">
                     <Image
-                        alt='Mountains'
+                        alt={`${route}-image`}
                         src={image}
                         width={0}
                         height={0}

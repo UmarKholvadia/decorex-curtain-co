@@ -46,7 +46,10 @@ body {
   background-size: cover;
 }
 
-
+.slider-container {
+  width: 90vh;
+  height: 70vh;
+}
 
 @layer utilities {
   .text-balance {
